@@ -1,0 +1,10 @@
+[submodule "ivailievablog/themes/ananke"]
+	path = ivailievablog/themes/ananke
+	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
+[submodule "ivailievablog/public"]
+	path = ivailievablog/public
+	url = https://github.com/IvaIlieva/ivailieva.github.io.git
+	branch = main
+[submodule "ivailievablog/themes/ga-hugo-theme"]
+	path = ivailievablog/themes/ga-hugo-theme
+	url = https://github.com/giraffeacademy/ga-hugo-theme.git
