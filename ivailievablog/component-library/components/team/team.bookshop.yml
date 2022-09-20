@@ -15,6 +15,7 @@ blueprint:
     - image: ""
       name: ""
       role: ""
+      description: ""
       facebook: ""
       twitter: ""
       instagram: ""
@@ -23,50 +24,25 @@ blueprint:
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
   preheading: Our Team
-  heading: Expert Team member to get best service
+  heading: Heading
   people:
-    - image: /images/team/team-1.jpg
-      name: David Spensor
-      role: Project Manager
-      facebook: themefisher
-      twitter: themefisher
-      instagram: themefisher
-      linkedin: themefisher
-    - image: /images/team/team-2.jpg
-      name: Jason Roy
-      role: UI/UX Designer
-      facebook: themefisher
-      twitter: themefisher
-      instagram: themefisher
-      linkedin: themefisher
-    - image: /images/team/team-3.jpg
-      name: Henry Oswald
-      role: Developer
-      facebook: themefisher
-      twitter: themefisher
-      instagram: themefisher
-      linkedin: themefisher
-    - image: /images/team/team-4.jpg
-      name: David Williams
-      role: Senior Marketer
-      facebook: themefisher
-      twitter: themefisher
-      instagram: themefisher
-      linkedin: themefisher
-    - image: /images/team/team-5.jpg
-      name: Peter Odin
-      role: App Developer
-      facebook: themefisher
-      twitter: themefisher
-      instagram: themefisher
-      linkedin: themefisher
-    - name: David Spensor
-      image: /images/team/team-5.jpg
-      role: Project Manager
-      facebook: themefisher
-      twitter: themefisher
-      instagram: themefisher
-      linkedin: themefisher
+    - name: "Alex Manolov"
+      image: "/images/team/team-2.jpg"
+      role: "Co-founder and CEO"
+      description: "Alex is an experienced product and innovation leader, founder, investor, and advisor with an international career spanning multiple industries over 20 years. He has worked for global brands like Carlsberg and Expedia as well as several early-stage tech start-ups. Alex has significant experience in driving customer discovery and bringing new products to market."
+      facebook: 
+      twitter: 
+      instagram: 
+      linkedin: "[themefisher](https://www.linkedin.com/in/alexander-manolov/)"
+    - name: "Nikolai Penkov"
+      image: "/images/team/team-2.jpg"
+      role: "Co-founder and CTO"
+      description: "Nick has over two decades of experience in designing and developing large scale complex information systems. He has created and led high performing engineering teams in large corporate and start up settings. Nick has worked for companies like Honeywell, Accenture, and Coca Cola Hellenic and was a co-founder of Zest Labs."
+      facebook: 
+      twitter: 
+      instagram: 
+      linkedin: "[themefisher](https://www.linkedin.com/in/npenkov/)"
+
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs: {}

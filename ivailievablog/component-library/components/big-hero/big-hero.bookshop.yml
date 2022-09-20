@@ -9,21 +9,27 @@ spec:
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  preheading: ""
   heading: ""
+  postheading: ""
   background_image: ""
-  link:
+  link_main:
+    text: ""
+    url: ""
+  link_secondary:
     text: ""
     url: ""
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:
-  preheading: Prepare for new future
-  heading: Our work is <br>presentation of our <br>capabilities.
+  heading: Material Handling as a Service for logistics and industrial companies
+  postheading: With our proprietary technology, we are helping to tackle employee shortages and improve material handling throughput in any type of environment.
   background_image: /images/bg/home-1.jpg
-  link:
-    text: Get started
-    url: "#"
+  link_main:
+    text: "Learn more"
+    url: ""
+  link_secondary:
+    text: "Contact us"
+    url: ""
 
 # Any extra CloudCannon inputs configuration to apply to the blueprint
 _inputs: {}

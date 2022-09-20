@@ -2,7 +2,7 @@
 spec:
   structures:
     - content_blocks
-  label: Contact Form
+  label: Contact us
   description: Contact form section
   icon: send_to_mobile
   tags: []
