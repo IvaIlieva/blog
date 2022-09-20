@@ -3,7 +3,7 @@
 	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
 [submodule "ivailievablog/public"]
 	path = ivailievablog/public
-	url = https://github.com/IvaIlieva/ivailieva.github.io.git
+	url = https://github.com/IvaIlieva/ivailieva.github.io
 	branch = main
 [submodule "ivailievablog/themes/ga-hugo-theme"]
 	path = ivailievablog/themes/ga-hugo-theme
